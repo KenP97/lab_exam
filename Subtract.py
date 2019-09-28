@@ -3,4 +3,4 @@ class Subtract:
         print("Subtraction")
        
     def operation(self, a, b):
-        print("Subtraction of a and b:"+str(a-b))
+        return str(a-b)
