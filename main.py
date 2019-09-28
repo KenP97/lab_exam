@@ -1,7 +1,7 @@
 import sys
 from Addition import Addition
 from Subtract import Subtract
-from Multiply import Multiply
+from Multiplication import Multiplication
 
 
 
@@ -18,7 +18,7 @@ if(i=="1"):
 elif(i=="2"):
     op = Subtraction()
 elif(i=="3"):
-    op = Multiply()
+    op = Multiplication()
 else:
     print("Wrong input given")
     sys.exit(0)
