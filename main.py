@@ -24,6 +24,6 @@ else:
     sys.exit(0)
 
     
-a = sys.argv[2]  #int(input("value for A :"))
-b = sys.argv[3]  #int(input("value for B :"))
+a = int(sys.argv[2])  #int(input("value for A :"))
+b = int(sys.argv[3])  #int(input("value for B :"))
 print(op.operation(a,b))
