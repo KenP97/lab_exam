@@ -16,7 +16,7 @@ i = sys.argv[1] #input("Enter your option between 1-3 : ")
 if(i=="1"):
     op = Addition()
 elif(i=="2"):
-    op = Subtraction()
+    op = Subtract()
 elif(i=="3"):
     op = Multiplication()
 else:
